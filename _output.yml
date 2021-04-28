@@ -4,6 +4,10 @@ bookdown::gitbook:
   config:
     toc:
       collapse: section
+    toolbar:
+      position: fixed
+      download: 'Skript_Statistik_2021.pdf'
+      search: yes
   includes:
     in_header: header.html
   lib_dir: "assets"
@@ -11,3 +15,5 @@ bookdown::gitbook:
 
 bookdown::pdf_book:
   keep_tex: true
+  latex_engine: xelatex
+  template: template.tex
