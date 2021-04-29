@@ -35,7 +35,7 @@ rmd_files:
   - Formelsammlung.Rmd
   - 01_Lösungen.Rmd
   - 02_Lösungen.Rmd
-  # - 03_Lösungen.Rmd
+  - 03_Lösungen.Rmd
   # - 04_Lösungen.Rmd
   # - 05_Lösungen.Rmd
   # - 06_Lösungen.Rmd
