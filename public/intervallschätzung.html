@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>4.3 Intervallschätzung | Statistische Verfahren in der Geographie</title>
   <meta name="description" content="Projektseminar" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="4.3 Intervallschätzung | Statistische Verfahren in der Geographie" />
   <meta property="og:type" content="book" />
@@ -31,7 +31,7 @@
   
 <link rel="prev" href="punktschätzung.html"/>
 <link rel="next" href="tipps-zur-vertiefung-3.html"/>
-<script src="assets/header-attrs-2.6/header-attrs.js"></script>
+<script src="assets/header-attrs-2.7/header-attrs.js"></script>
 <script src="assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -49,6 +49,8 @@
 
 
 
+<link href="assets/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="assets/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="assets/kePrint-0.0.1/kePrint.js"></script>
 <link href="assets/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link rel="icon" href="https://www.uni-frankfurt.de/favicon.ico" type="image/x-icon">
@@ -60,6 +62,29 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet"> 
 
 
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="custom.css" type="text/css" />
 </head>
@@ -308,14 +333,14 @@
 <li>Der entscheidende Trick: Weil die Normalverteilung symmetrisch ist, sind diese Wahrscheinlichkeiten analog anzuwenden auf die Bereiche einer konstruierten Verteilung mit gleichem <span class="math inline">\(\sigma_{\bar{x}}\)</span> um unser <span class="math inline">\(\bar{x}\)</span>, in die der wirkliche Wert <span class="math inline">\(\mu\)</span> fällt. (s. Abbildung <a href="intervallschätzung.html#fig:double">4.4</a>).</li>
 </ul>
 <div class="figure" style="text-align: center"><span id="fig:double"></span>
-<img src="Skript_Statistik_2021_files/figure-html/double-1.svg" alt="Konstruierte Verteilung um $\bar{x}$" width="450px" />
+<img src="Skript_Statistik_2021_files/figure-html/double-1.png" alt="Konstruierte Verteilung um $\bar{x}$" width="672" />
 <p class="caption">
 Abbildung 4.4: Konstruierte Verteilung um <span class="math inline">\(\bar{x}\)</span>
 </p>
 </div>
 <p>Dabei heißt der Bereich Konfidenzintervall (engl. <em>confidence interval</em>), und seine Breite wird mit <span class="math inline">\(\textrm{KIB}\)</span> abgekürzt. Die Wahrscheinlichkeit, dass wir mit unserer Schätzung <em>außerhalb</em> des Konfidenzintervalls liegen wird mit <span class="math inline">\(\alpha\)</span> gekennzeichnet. Ein 95%-Konfidenzintervall hat also ein <span class="math inline">\(\alpha\)</span> von 0,05 (s. <a href="intervallschätzung.html#fig:konf">4.5</a>).</p>
 <div class="figure" style="text-align: center"><span id="fig:konf"></span>
-<img src="Skript_Statistik_2021_files/figure-html/konf-1.svg" alt="Konfidenzintervall" width="450px" />
+<img src="Skript_Statistik_2021_files/figure-html/konf-1.png" alt="Konfidenzintervall" width="672" />
 <p class="caption">
 Abbildung 4.5: Konfidenzintervall
 </p>
@@ -537,10 +562,16 @@ n&amp;\approx\bigg(\frac{10{,}23}{1{,}94}\bigg)^2\\[4pt]
 <p>Wir müssten also 28 Stichproben vorliegen haben.</p>
 </div>
 </div>
+<h3>Quellenverzeichnis</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bortz" class="csl-entry">
+Bortz, Jürgen und Christof Schuster. 2010. <em>Statistik für Human- und Sozialwissenschaftler</em>. Berlin: Springer.
+</div>
+</div>
 <div class="footnotes">
 <hr />
 <ol start="3">
-<li id="fn3"><p>Genau genommen ist das nicht ganz korrekt, <q>denn tatsächlich kann der Parameter nur innerhalb oder außerhalb des gefundenen Bereichs liegen. Die Wahrscheinlichkeit, dass ein Parameter in einen bestimmten Bereich fällt, ist damit entweder 0 oder 1.</q> <span class="citation">(<a href="quellenverzeichnis.html#ref-bortz" role="doc-biblioref">Bortz und Schuster 2010</a>: 93)</span>. Mathematisch korrekt müsste es heißen: <q>Die Wahrscheinlichkeit, dass <span class="math inline">\(\bar{x}\)</span> zu einer Population gehört, deren Parameter <span class="math inline">\(\mu\)</span> in diesem Bereich liegt…</q><a href="intervallschätzung.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Genau genommen ist das nicht ganz korrekt, <q>denn tatsächlich kann der Parameter nur innerhalb oder außerhalb des gefundenen Bereichs liegen. Die Wahrscheinlichkeit, dass ein Parameter in einen bestimmten Bereich fällt, ist damit entweder 0 oder 1.</q> <span class="citation">(<a href="#ref-bortz" role="doc-biblioref">Bortz und Schuster 2010</a>: 93)</span>. Mathematisch korrekt müsste es heißen: <q>Die Wahrscheinlichkeit, dass <span class="math inline">\(\bar{x}\)</span> zu einer Population gehört, deren Parameter <span class="math inline">\(\mu\)</span> in diesem Bereich liegt…</q><a href="intervallschätzung.html#fnref3" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
@@ -572,6 +603,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {

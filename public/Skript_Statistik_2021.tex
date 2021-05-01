@@ -257,12 +257,11 @@ Goethe-Universität Frankfurt}
 Datum & Sitzung & Inhalt\tabularnewline
 \midrule
 \endhead
-<<<<<<< HEAD
 13. April 2021 & & \protect\hyperlink{vorbesprechung}{Vorbesprechung}\tabularnewline
 20. April 2021 & 1 & \protect\hyperlink{datenerhebung-und-huxe4ufigkeiten}{Datenerhebung und Häufigkeiten}\tabularnewline
 27. April 2021 & 2 & \protect\hyperlink{mauxdfzahlen}{Maßzahlen}\tabularnewline
-4. Mai 2021 & 3 & \protect\hyperlink{z-werte-und-normalverteilung}{z-Werte und Normalverteilung}\tabularnewline
-11. Mai 2021 & 4 & {[}Schätzstatistik{]}\tabularnewline
+4. Mai 2021 & 3 & {[}z-Werte und Normalverteilung{]}\tabularnewline
+11. Mai 2021 & 4 & \protect\hyperlink{schuxe4tzstatistik}{Schätzstatistik}\tabularnewline
 18. Mai 2021 & 5 & {[}Grundlagen der Teststatistik{]}\tabularnewline
 25. Mai 2021 & 6 & {[}Testverfahren mit zwei Stichproben{]}\tabularnewline
 1. Juni 2021 & 7 & {[}Korrelation{]}\tabularnewline
@@ -272,22 +271,6 @@ Datum & Sitzung & Inhalt\tabularnewline
 29. Juni 2021 & & Klausurvorbereitung\tabularnewline
 6. Juli 2021 & & Klausurvorbereitung\tabularnewline
 13. Juli 2021 & & Klausur\tabularnewline
-=======
-13. April 2021 & & \protect\hyperlink{vorbesprechung}{Vorbesprechung} \\
-20. April 2021 & 1 & \protect\hyperlink{datenerhebung-und-huxe4ufigkeiten}{Datenerhebung und Häufigkeiten} \\
-27. April 2021 & 2 & \protect\hyperlink{mauxdfzahlen}{Maßzahlen} \\
-4. Mai 2021 & 3 & {[}z-Werte und Normalverteilung{]} \\
-11. Mai 2021 & 4 & \protect\hyperlink{schuxe4tzstatistik}{Schätzstatistik} \\
-18. Mai 2021 & 5 & {[}Grundlagen der Teststatistik{]} \\
-25. Mai 2021 & 6 & {[}Testverfahren mit zwei Stichproben{]} \\
-1. Juni 2021 & 7 & {[}Korrelation{]} \\
-8. Juni 2021 & 8 & {[}Lineare Regression{]} \\
-15. Juni 2021 & 9 & {[}Kreuztabellen{]} \\
-22. Juni 2021 & 10 & {[}Chi-Quadrat-Tests{]} \\
-29. Juni 2021 & & Klausurvorbereitung \\
-6. Juli 2021 & & Klausurvorbereitung \\
-13. Juli 2021 & & Klausur \\
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 \bottomrule
 \end{longtable}
 
@@ -2457,161 +2440,6 @@ Die mittleren 85\% der Messwerte liegen also zwischen 990,7 und 1015,3~hPa.
 \hypertarget{uxfcbungsaufgaben-2}{%
 \section*{Übungsaufgaben}\label{uxfcbungsaufgaben-2}}
 \addcontentsline{toc}{section}{Übungsaufgaben}
-<<<<<<< HEAD
-
-\hypertarget{aufgabe-1-2}{%
-\subsection{Aufgabe 1}\label{aufgabe-1-2}}
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\tightlist
-\item
-  Führen Sie eine \(z\)-Transformation der folgenden Verteilung durch:
-\end{enumerate}
-
-\begin{verbatim}
--16,93  -16,09  -10,97  -3,77  -25,55  -20,57  -23,61  -25,9  
--27,08
-\end{verbatim}
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\setcounter{enumi}{1}
-\tightlist
-\item
-  Sie kennen das arithmetische Mittel (221,54) und die Varianz (13,02) einer Verteilung. Welche \(x\)-Werte entsprechen diesen \(z\)-Werten?
-\end{enumerate}
-
-\begin{verbatim}
-1,19  -1,87  1,5  -0,44  2,96  0,2  3,83  0,54  -2,05  0,18  
--0,23  0,9
-\end{verbatim}
-
-\hypertarget{aufgabe-2-2}{%
-\subsection{Aufgabe 2}\label{aufgabe-2-2}}
-
-Gegeben sei eine Normalverteilung beschrieben durch:
-
-\[x \sim N(32{,}2,\enspace4{,}4)\]
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\tightlist
-\item
-  Mit welcher Wahrscheinlichkeit werden die folgenden Werte unterschritten?
-\end{enumerate}
-
-\begin{verbatim}
-42,78  12,68  31,84  49,31  44,72  31,13
-\end{verbatim}
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\setcounter{enumi}{1}
-\tightlist
-\item
-  Welche Werte werden jeweils mit der folgenden Wahrscheinlichkeit über(!)schritten?
-\end{enumerate}
-
-\begin{verbatim}
-0.05%  0.1%  5%  13%  50%  90%  99%  99.99%
-\end{verbatim}
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\setcounter{enumi}{2}
-\item
-  In welchem Bereich liegen die mittleren 95\% der Werte?
-\item
-  Wie wahrscheinlich ist es, dass ein Wert zwischen 30 und 40 liegt?
-\end{enumerate}
-
-\hypertarget{aufgabe-3-2}{%
-\subsection{Aufgabe 3}\label{aufgabe-3-2}}
-
-Deiche werden durch Wasserdruck bei Hochwasser belastet und dadurch beschädigt. Bei einem 12~m hohen Deich gilt als kritische Marke ein Wasserstand von 10~m. Die jährlichen Höchstwasserstände des Flusses sind normalverteilt mit einem Mittelwert von 9,01~m und einer Standardabweichung von 2,23~m.
-
-In den folgenden Teilaufgaben beantworten wir Schritt für Schritt die Frage, wie wahrscheinlich es (für ein beliebiges Jahr) ist, dass der Deich das jährliche Hochwasser ohne Beschädigung übersteht, d.~h. dass ein Höchstwasserstand von 10~m oder weniger eintritt.
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\tightlist
-\item
-  Zeichnen Sie die Wahrscheinlichkeitsdichtefunktion (ganz grob, ohne \(y\)-Achse).
-\item
-  Markieren Sie den kritischen Wert 10~m.
-\item
-  Welchem \(z\)-Wert entspricht die kritische Marke von 10~?
-\item
-  Mit welcher Wahrscheinlichkeit bleibt der Deich in einem gegebenen Jahr unbeschädigt (Höchstwasserstand unter der kritischen Marke von 10~m)?
-\end{enumerate}
-
-\hypertarget{aufgabe-4-2}{%
-\subsection{Aufgabe 4}\label{aufgabe-4-2}}
-
-Wir bleiben beim Deich aus Aufgabe 3.
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\tightlist
-\item
-  Mit welcher Wahrscheinlichkeit wird der Deich beschädigt (Wasserstand über 10~m)?
-\item
-  Mit welcher Wahrscheinlichkeit wird der Deich nicht nur beschädigt, sondern läuft über (Wasserstand über 12~m)?
-\item
-  Mit welcher Wahrscheinlichkeit wird der Deich beschädigt, läuft aber nicht über (Wasserstand zwischen 10 und 12~m)?
-\item
-  In welchen Grenzen liegen die mittleren 80\% der Hochwasserstände?
-\end{enumerate}
-
-\hypertarget{aufgabe-5-1}{%
-\subsection{Aufgabe 5}\label{aufgabe-5-1}}
-
-Es ist ein neuer Deich zu bauen, der so sicher sein soll, dass er nur alle 200 Jahre vom Hochwasser übertreten wird.
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\tightlist
-\item
-  Welcher Wahrscheinlichkeitswert \(p=P(x < x_p)\) ist anzuwenden, d.~h. wie wahrscheinlich ist die \emph{Unterschreitung} eines \enquote{zweihundertjährigen Hochwassers}?
-\item
-  Mit welchem \(z\)-Wert korrespondiert der gesuchte Wert \(x_p\)?
-\item
-  Wie hoch muss dieser Deich sein? (Welcher Wert \(x_p\) entspricht diesem \(z_p\)?)
-\end{enumerate}
-
-\hypertarget{aufgabe-6-1}{%
-\subsection{Aufgabe 6}\label{aufgabe-6-1}}
-
-Die jährlichen Niederschlagsmengen in Mittelstedt betragen im Durchschnitt 40m bei annähernder Normalverteilung und einer Standardabweichung von 100~mm.
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\tightlist
-\item
-  Wie groß ist die Wahrscheinlichkeit, dass mehr als 50m Niederschlag fallen?
-\item
-  Wie oft pro hundert Jahre kann mit weniger als 20m Niederschlag gerechnet werden?
-\item
-  Mit welcher Wahrscheinlichkeit fallen zwischen 20m und 550~mm Niederschlag?
-\item
-  Welche Niederschlagsmenge wird wahrscheinlich in nur 2 von 100 Jahren übertroffen?
-\item
-  In welchen Grenzen liegen die mittleren 75\% der jährlichen Niederschlagsmenge?
-\end{enumerate}
-
-\hypertarget{aufgabe-7}{%
-\subsection{Aufgabe 7}\label{aufgabe-7}}
-
-Errechnen Sie für die Verteilungen in \protect\hyperlink{ex2-5}{Aufgabe 5 aus Sitzung 2} jeweils den Variationskoeffizienten.
-
-\hypertarget{formelsammlung-und-wertetabellen}{%
-\chapter*{Formelsammlung und Wertetabellen}\label{formelsammlung-und-wertetabellen}}
-\addcontentsline{toc}{chapter}{Formelsammlung und Wertetabellen}
-
-Die Formelsammlung mit Wertetabellen liegt als PDF vor. So (oder ähnlich) formatiert würden Ihnen diese Informationen auch in einer Präsenzklausur zur Verfügung stehen. Ich empfehle deshalb, das Dokument herunterzuladen und auszudrucken -- so gewöhnen Sie sich gleich an das Format.
-=======
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \hypertarget{aufgabe-3-1}{%
 \subsection{Aufgabe~3-1}\label{aufgabe-3-1}}
@@ -2634,50 +2462,12 @@ Die Formelsammlung mit Wertetabellen liegt als PDF vor. So (oder ähnlich) forma
 \end{verbatim}
 \end{enumerate}
 
-<<<<<<< HEAD
-\hypertarget{aufgabe-3-3}{%
-\subsection{Aufgabe 3}\label{aufgabe-3-3}}
-
-\begin{table}
-\centering
-\begin{tabular}{lllll}
-\toprule
-  & Variable & Skalenniveau & Variablentyp & Anmerkungen\\
-\midrule
-a) & Lebensalter in Jahren & Verhältnisskala & diskret & ganze Zahlen vorausgesetzt\\
-b) & Regenmenge in mm & Verhältnisskala & stetig & \\
-c) & Güteklasse & Ordinalskala & qualitativ & \\
-d) & Passagieraufkommen & Verhältnisskala & diskret & \\
-e) & Baujahr & Intervallskala & diskret & \\
-f) & Geschwindigkeit in km/h & Verhältnisskala & stetig & bei ganzzahligen Werten: diskret\\
-g) & Sozialstatus (Unter-, Mittel und Oberschicht) & Ordinalskala & qualitativ & \\
-h) & Temperatur in °F & Intervallskala & stetig & \\
-i) & Fläche eines Bundeslands in km² & Verhältnisskala & stetig & \\
-j) & Temperatur in K & Verhältnisskala & stetig & 0 K ist ein natürlicher Nullpunkt\\
-k) & Einwohnerzahl & Verhältnisskala & diskret & \\
-l) & Pegelstand & Intervallskala & stetig & willkürlicher Nullpunkt\\
-m) & Staatsangehörigkeit & Nominalskala & qualitativ & \\
-n) & Interesse an Statistik (gering bis hoch) & Ordinalskala & qualitativ & \\
-o) & Klausurnote & Ordinalskala & qualitativ & wird jedoch oft metrisch verwendet\\
-p) & Bodentyp & Nominalskala & qualitativ & \\
-q) & Entfernung zum Stadtzentrum in km & Verhältnisskala & stetig & \\
-r) & Körpergröße & Verhältnisskala & stetig & \\
-s) & Kleidergröße (S bis XXL) & Ordinalskala & qualitativ & \\
-t) & Monatliches Nettoeinkommen & Verhältnisskala & stetig & oder diskret für Cent-Beträge\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\hypertarget{aufgabe-4-3}{%
-\subsection{Aufgabe 4}\label{aufgabe-4-3}}
-=======
 \hypertarget{aufgabe-3-2}{%
 \subsection{Aufgabe~3-2}\label{aufgabe-3-2}}
 
 \protect\hyperlink{loesung-3-2}{zur~Lösung}
 
 Gegeben sei eine Normalverteilung beschrieben durch:
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \[x \sim N(32{,}2,\enspace4{,}4)\]
 
@@ -2686,35 +2476,14 @@ Gegeben sei eine Normalverteilung beschrieben durch:
 \item
   Mit welcher Wahrscheinlichkeit werden die folgenden Werte unterschritten?
 
-<<<<<<< HEAD
-\begin{table}
-\centering
-\begin{tabular}{lr}
-\toprule
-Wert $x_i$ & Häufigkeit $f_i$\\
-\midrule
-von 0 bis unter 25 h & 9\\
-von 25 bis unter 50 h & 5\\
-von 50 bis unter 75 h & 2\\
-von 75 bis unter 100 h & 3\\
-von 100 bis unter 125 h & 1\\
-von 125 bis unter 150 h & 1\\
-von 150 bis unter 175 h & 0\\
-von 175 bis unter 200 h & 2\\
-von 200 bis unter 225 h & 1\\
-\bottomrule
-\end{tabular}
-\end{table}
-=======
 \begin{verbatim}
 39,58  17,01  31,38  44,48  41,04  30,85
 \end{verbatim}
 \item
   Welche Werte werden jeweils mit der folgenden Wahrscheinlichkeit über(!)schritten?
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \begin{verbatim}
-0.05%  0.1%  5%  13%  50%  90%  99%  99.99%
+0,05%  0,1%  5%  13%  50%  90%  99%  99,99%
 \end{verbatim}
 \item
   In welchem Bereich liegen die mittleren 95\% der Werte?
@@ -2725,11 +2494,7 @@ von 200 bis unter 225 h & 1\\
 \hypertarget{aufgabe-3-3}{%
 \subsection{Aufgabe~3-3}\label{aufgabe-3-3}}
 
-<<<<<<< HEAD
-\begin{center}\includegraphics[width=.6\linewidth]{Skript_Statistik_2021_files/figure-latex/unnamed-chunk-26-1} \end{center}
-=======
 \protect\hyperlink{loesung-3-3}{zur~Lösung}
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 Deiche werden durch Wasserdruck bei Hochwasser belastet und dadurch beschädigt. Bei einem 12~m hohen Deich gilt als kritische Marke ein Wasserstand von 10~m. Die jährlichen Höchstwasserstände des Flusses sind normalverteilt mit einem Mittelwert von 9,01~m und einer Standardabweichung von 2,23~m.
 
@@ -2748,13 +2513,8 @@ In den folgenden Teilaufgaben beantworten wir Schritt für Schritt die Frage, wi
   Mit welcher Wahrscheinlichkeit bleibt der Deich in einem gegebenen Jahr unbeschädigt (Höchstwasserstand unter der kritischen Marke von 10~m)?
 \end{enumerate}
 
-<<<<<<< HEAD
-\hypertarget{aufgabe-5-2}{%
-\subsection{Aufgabe 5}\label{aufgabe-5-2}}
-=======
 \hypertarget{aufgabe-3-4}{%
 \subsection{Aufgabe~3-4}\label{aufgabe-3-4}}
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \protect\hyperlink{loesung-3-4}{zur~Lösung}
 
@@ -2856,59 +2616,21 @@ Sie können\ldots{}
 \hypertarget{stichprobenverteilung}{%
 \section{Stichprobenverteilung}\label{stichprobenverteilung}}
 
-<<<<<<< HEAD
-\hypertarget{aufgabe-1-3}{%
-\subsection{Aufgabe 1}\label{aufgabe-1-3}}
-=======
 \begin{quote}
 Die Stichprobenverteilung ist eine theoretische Verteilung, welche die möglichen Ausprägungen eines statistischen Kennwertes (z.~B. \(\bar{x}\)) sowie deren Auftretenswahrscheinlichkeit beim Ziehen von Zufallsstichproben des Umfanges \(n\) beschreibt. (\protect\hyperlink{ref-bortz}{Bortz und Schuster 2010}: 83)
 \end{quote}
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 Hier ist zunächst die theoretische Verteilung des Mittelwerts einer Stichprobe relevant. Insbesondere interessiert uns, wie sich die theoretische Verteilung des Mittelwerts abhängig von der Stichprobengröße verhält.
 
-<<<<<<< HEAD
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Musterlösung\\
-\midrule
-Formel & $\bar{x}=\frac{\sum\limits_{i=1}^{n}x_{i}}{n}$\\
-Einsetzen & $\bar{x}=\frac{356{,}00}{6}$\\
-Ergebnis & $\bar{x}=59{,}33$\\
-\bottomrule
-\end{tabular}
-\end{table}
-=======
 \hypertarget{szenario-1-normalverteilte-grundgesamtheit}{%
 \subsection{Szenario 1: Normalverteilte Grundgesamtheit}\label{szenario-1-normalverteilte-grundgesamtheit}}
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 Die Grundgesamtheit (Population) einer Variable \(x\) sei normalverteilt mit \(\mu=50\) und \(\sigma^2=25\). Wir können also schreiben:
 
-<<<<<<< HEAD
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Musterlösung\\
-\midrule
-Formel & $\bar{x}=\frac{\sum\limits_{i=1}^{n}x_{i}}{n}$\\
-Einsetzen & $\bar{x}=\frac{2{,}08}{8}$\\
-Ergebnis & $\bar{x}=0{,}26$\\
-\bottomrule
-\end{tabular}
-\end{table}
-=======
 \nopagebreak
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \[ x \sim N(50, \enspace 25) \]
 
-<<<<<<< HEAD
-\begin{table}
-=======
 Die Standardabweichung der Population beträgt entsprechend:
 
 \nopagebreak
@@ -3565,7 +3287,7 @@ Die Formelsammlung mit Wertetabellen liegt als PDF vor. So (oder ähnlich) forma
 
 \protect\hyperlink{aufgabe-1-3}{zur Aufgabenstellung}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lllll}
 \toprule
@@ -3605,7 +3327,7 @@ t) & Monatliches Nettoeinkommen & Verhältnisskala & stetig & oder diskret für 
 
 Die Werte sind im Bereich zwischen 3 und 210 Stunden. Eine Klassengröße von 25 Stunden bietet sich an, es sind jedoch auch andere Größen denkbar. Da die Variable diskret zu sein scheint, können die Klassengrenzen als ganze Zahlen angegeben werden.
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lr}
 \toprule
@@ -3696,7 +3418,7 @@ Sind die folgenden Aussagen wahr oder unwahr?
 \hypertarget{a-2}{%
 \subsubsection{a)}\label{a-2}}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -3712,7 +3434,7 @@ Ergebnis & $\bar{x}=59{,}33$\\
 \hypertarget{b-2}{%
 \subsubsection{b)}\label{b-2}}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -3728,7 +3450,7 @@ Ergebnis & $\bar{x}=0{,}26$\\
 \hypertarget{c-2}{%
 \subsubsection{c)}\label{c-2}}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -3749,7 +3471,7 @@ Ergebnis & $\bar{x}=835{,}02$\\
 \hypertarget{a-3}{%
 \subsubsection{a)}\label{a-3}}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -3768,7 +3490,7 @@ Varianz: Ergebnis & $s\approx15{,}68$\\
 \hypertarget{b-3}{%
 \subsubsection{b)}\label{b-3}}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -3787,7 +3509,7 @@ Varianz: Ergebnis & $s\approx0{,}48$\\
 \hypertarget{c-3}{%
 \subsubsection{c)}\label{c-3}}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -3819,7 +3541,7 @@ Die geordnete Liste ist:
 
 Für das arithmetische Mittel und die Varianz ist diese Tabelle hilfreich:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{llllll}
 \toprule
@@ -3871,7 +3593,7 @@ Da der untere Angelpunkt und der Median zusammenfallen, sieht der Boxplot etwas 
 
 Für den Quartilsabstand brauchen wir den Klassendurchschnitt und kumulative Häufigkeiten:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lrrr}
 \toprule
@@ -3907,7 +3629,7 @@ Der Quartilsabstand beträgt dann
 
 Um die Berechnung des arithmetischen Mittels zu vereinfachen berechnen wir den Klassendurchschnitt und Zwischensummen:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lrrrr}
 \toprule
@@ -3940,7 +3662,7 @@ Die Summen für das arithmetische Mittel entnehmen wir dann einfach der letzten 
 
 Für die Varianz erweitern wir die Tabelle:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lrrrrr}
 \toprule
@@ -3987,7 +3709,7 @@ Somit beträgt die Standardabweichung
 \hypertarget{a-6}{%
 \subsubsection{a)}\label{a-6}}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -4006,7 +3728,7 @@ Antwortsatz & Die Ziegelei weist im Mittel die größere Passant\*innenzahl auf.
 \hypertarget{b-6}{%
 \subsubsection{b)}\label{b-6}}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -4037,7 +3759,7 @@ Es gibt eine Hierarchie der Werte (Ordinal-), sinnvolle Abstände (Intervall-) u
 
 Klassen könnten z.~B. wie in der folgenden Tabelle gewählt werden. Um die Berechnung des arithmetischen Mittels zu vereinfachen berechnen wir gleich den Klassendurchschnitt und Zwischensummen:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lrrrr}
 \toprule
@@ -4101,7 +3823,7 @@ Die Summen für das arithmetische Mittel entnehmen wir der letzten Spalte der We
 
 Für die Standardabweichung erweitern wir die Tabelle:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lrrrrr}
 \toprule
@@ -4154,8 +3876,7 @@ Auch der Boxplot lässt sich anhand der klassierten Werte zeichnen:
 
 Zunächst brauchen wir das arithmetische Mittel:
 
-\begin{table}[H]
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -4168,14 +3889,9 @@ Ergebnis & $\bar{x}=-18{,}94$\\
 \end{tabular}
 \end{table}
 
-<<<<<<< HEAD
-\hypertarget{aufgabe-2-3}{%
-\subsection{Aufgabe 2}\label{aufgabe-2-3}}
-=======
 Und die Standardabweichung:
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -4204,7 +3920,7 @@ Einsetzen & $z_{i} = \frac{x_{i} +18{,}94}{7{,}82}$\\
 
 Und schließlich die einzelnen Werte berechnen. Hier sind die Berechnungen zum Prüfen ausformuliert, das wird in der Klausur nicht für jeden Wert erwartet.
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{rl}
 \toprule
@@ -4228,7 +3944,7 @@ $x_i$ & Berechnung\\
 
 Zunächst die Standardabweichung:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -4243,7 +3959,7 @@ Ergebnis & $s\approx3{,}61$\\
 
 Dann die Formel:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -4258,7 +3974,7 @@ Einsetzen & $x_{i} = z_{i} \cdot 3{,}61 + 221{,}54$\\
 
 Schließlich die einzelnen Werte:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{rl}
 \toprule
@@ -4290,7 +4006,7 @@ $z_i$ & Berechnung\\
 
 Zunächst geht es darum, die \(x\)-Werte in \(z\)-Werte zu transformieren.
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lc}
 \toprule
@@ -4304,7 +4020,7 @@ Einsetzen & $z_{i} = \frac{x_{i} - 32{,}2}{4{,}4}$\\
 
 Durch Einsetzen ergeben sich die folgenden Werte. (So ausführlich muss es in der Klausur nicht sein.)
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{rc}
 \toprule
@@ -4326,7 +4042,7 @@ Für die positiven \(z\)-Werte können die Unterschreitungs­wahrscheinlichkeite
 
 Die Unterschreitungswerte ergeben:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{rllll}
 \toprule
@@ -4351,7 +4067,7 @@ Es handelt sich um Überschreitungs­wahrscheinlichkeiten, aber aus der Tabelle 
 
 So lässt sich jeweils sagen:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{rrlll}
 \toprule
@@ -4373,7 +4089,7 @@ Für die Rücktransformation gilt die Formel:
 
 \[x_{i} = z_{i} \cdot \sigma + \mu\]
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{lll}
 \toprule
@@ -4402,7 +4118,7 @@ Durch Symmetrie wissen wir dann auch, dass: \(z_{2{,}5\%} \approx -1{,}96\)
 
 Nun noch rückwärts transformieren:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{ll}
 \toprule
@@ -4427,7 +4143,7 @@ Es ist immer einfacher, mit Unterschreitungs­wahrscheinlichkeiten zu arbeiten. 
 
 Diese Unterschreitungs­wahrscheinlichkeiten bestimmen wir wieder über die \(z\)-Transformation:
 
-\begin{table}[H]
+\begin{table}
 \centering
 \begin{tabular}{ll}
 \toprule
@@ -4648,10 +4364,6 @@ Variationskoeffizient: Ergebnis & $v \approx 38{,}13\%$\\
 \end{tabular}
 \end{table}
 
-<<<<<<< HEAD
-\hypertarget{aufgabe-3-4}{%
-\subsection{Aufgabe 3}\label{aufgabe-3-4}}
-=======
 \hypertarget{sitzung-4}{%
 \section*{Sitzung 4}\label{sitzung-4}}
 \addcontentsline{toc}{section}{Sitzung 4}
@@ -4675,7 +4387,6 @@ Variationskoeffizient: Ergebnis & $v \approx 38{,}13\%$\\
 
 \hypertarget{loesung-5-1}{%
 \subsection{Lösung~5-1}\label{loesung-5-1}}
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \protect\hyperlink{aufgabe-5-1}{zur Aufgabenstellung}
 
@@ -4687,25 +4398,7 @@ Variationskoeffizient: Ergebnis & $v \approx 38{,}13\%$\\
 \hypertarget{b-15}{%
 \subsubsection{b)}\label{b-15}}
 
-<<<<<<< HEAD
-\begin{table}
-\centering
-\begin{tabular}{llllll}
-\toprule
-$x_i$ & $f_i$ & $f_i\cdot x_i$ & $(x_i-\bar{x})$ & $(x_i-\bar{x})^2$ & $f_i\cdot(x_i-\bar{x})^2$\\
-\midrule
-1 & 3 & 3 & -1,85 & 3,41 & 10,22\\
-2 & 4 & 8 & -0,85 & 0,72 & 2,86\\
-3 & 2 & 6 & 0,15 & 0,02 & 0,05\\
-4 & 2 & 8 & 1,15 & 1,33 & 2,66\\
-5 & 1 & 5 & 2,15 & 4,64 & 4,64\\
-7 & 1 & 7 & 4,15 & 17,25 & 17,25\\
-\bottomrule
-\end{tabular}
-\end{table}
-=======
 \(\frac{\mathit{KIB}}{2}=z_{(1-\alpha/2)} \cdot \sigma_{\bar{x}}\)
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \(\frac{\mathit{KIB}}{2}= z_{97{,}5\%}\cdot \sigma_{\bar{x}}\)
 
@@ -4731,43 +4424,15 @@ Das Konfidenzniveau beträgt ca. 50,28\%.
 
 \(\frac{\mathit{KIB}}{2} = z_{(1-\alpha/2)} \cdot \sigma_{\bar{x}}\)
 
-<<<<<<< HEAD
-\begin{center}\includegraphics[width=.6\linewidth]{Skript_Statistik_2021_files/figure-latex/unnamed-chunk-36-1} \end{center}
-
-\hypertarget{aufgabe-4-4}{%
-\subsection{Aufgabe 4}\label{aufgabe-4-4}}
-=======
 \(\sigma_{\bar{x}} = \frac{\mathit{KIB}}{2\cdot z_{95\%}}\)
 
 \(\sigma_{\bar{x}} = \frac{2}{2 \cdot z_{95\%}}\)
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \(\sigma_{\bar{x}} \approx \frac{2}{2 \cdot 1{,}65}\)
 
 \(\sigma_{\bar{x}} \approx 0{,}61\)
 
-<<<<<<< HEAD
-\begin{table}
-\centering
-\begin{tabular}{lrrr}
-\toprule
-$x$ & $k_i$ & $f_i$ & $f_{kum}$\\
-\midrule
-von 75 bis unter 77,5 cm & 76,25 & 1 & 1\\
-von 77,5 bis unter 80 cm & 78,75 & 0 & 1\\
-von 80 bis unter 82,5 cm & 81,25 & 3 & 4\\
-von 82,5 bis unter 85 cm & 83,75 & 5 & 9\\
-von 85 bis unter 87,5 cm & 86,25 & 7 & 16\\
-von 87,5 bis unter 90 cm & 88,75 & 14 & 30\\
-von 90 bis unter 92,5 cm & 91,25 & 9 & 39\\
-von 92,5 bis unter 95 cm & 93,75 & 2 & 41\\
-von 95 bis unter 97,5 cm & 96,25 & 2 & 43\\
-\bottomrule
-\end{tabular}
-\end{table}
-=======
 \(\sigma_{\bar{x}}=\frac{\sigma}{\sqrt{n}}\)
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \(n = \big(\frac{\sigma}{\sigma_{\bar{x}}}\big)^2\)
 
@@ -4783,28 +4448,7 @@ von 95 bis unter 97,5 cm & 96,25 & 2 & 43\\
 
 \(\alpha=0{,}1\)
 
-<<<<<<< HEAD
-\begin{table}
-\centering
-\begin{tabular}{lrrrr}
-\toprule
-$x$ & $k_i$ & $f_i$ & $f_{kum}$ & $f_i \cdot k_i$\\
-\midrule
-von 75 bis unter 77,5 cm & 76,25 & 1 & 1 & 76,25\\
-von 77,5 bis unter 80 cm & 78,75 & 0 & 1 & 0,00\\
-von 80 bis unter 82,5 cm & 81,25 & 3 & 4 & 243,75\\
-von 82,5 bis unter 85 cm & 83,75 & 5 & 9 & 418,75\\
-von 85 bis unter 87,5 cm & 86,25 & 7 & 16 & 603,75\\
-von 87,5 bis unter 90 cm & 88,75 & 14 & 30 & 1242,50\\
-von 90 bis unter 92,5 cm & 91,25 & 9 & 39 & 821,25\\
-von 92,5 bis unter 95 cm & 93,75 & 2 & 41 & 187,50\\
-von 95 bis unter 97,5 cm & 96,25 & 2 & 43 & 192,50\\
-\bottomrule
-\end{tabular}
-\end{table}
-=======
 \(\sigma=\sqrt{\sigma^2}=\sqrt{4096}=64\)
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \(\sigma_{\bar{x}}=\frac{\sigma}{\sqrt{n}}=\frac{64}{sqrt{40}}\approx10{,}12\)
 
@@ -4814,28 +4458,7 @@ von 95 bis unter 97,5 cm & 96,25 & 2 & 43 & 192,50\\
 
 \(\textrm{Untergrenze} = \bar{x} - \frac{\mathit{KIB}}{2} \approx 2650 - 16{,}70 = 2633{,}30\)
 
-<<<<<<< HEAD
-\begin{table}
-\centering
-\begin{tabular}{lrrrrr}
-\toprule
-$x_i$ & $k_i$ & $f_i$ & $(k_i - \bar{x})$ & $(k_i - \bar{x})^2$ & $f_i \cdot (k_i - \bar{x})^2$\\
-\midrule
-von 75 bis unter 77,5 cm & 76,25 & 1 & -11,8 & 139,24 & 139,24\\
-von 77,5 bis unter 80 cm & 78,75 & 0 & -9,3 & 86,49 & 0,00\\
-von 80 bis unter 82,5 cm & 81,25 & 3 & -6,8 & 46,24 & 138,72\\
-von 82,5 bis unter 85 cm & 83,75 & 5 & -4,3 & 18,49 & 92,45\\
-von 85 bis unter 87,5 cm & 86,25 & 7 & -1,8 & 3,24 & 22,68\\
-von 87,5 bis unter 90 cm & 88,75 & 14 & 0,7 & 0,49 & 6,86\\
-von 90 bis unter 92,5 cm & 91,25 & 9 & 3,2 & 10,24 & 92,16\\
-von 92,5 bis unter 95 cm & 93,75 & 2 & 5,7 & 32,49 & 64,98\\
-von 95 bis unter 97,5 cm & 96,25 & 2 & 8,2 & 67,24 & 134,48\\
-\bottomrule
-\end{tabular}
-\end{table}
-=======
 \(\textrm{Obergrenze} = \bar{x} + \frac{\mathit{KIB}}{2} \approx 2650 + 16{,}70 = 2666{,}70\)
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \hypertarget{b-17}{%
 \subsubsection{b)}\label{b-17}}
@@ -4848,12 +4471,7 @@ von 95 bis unter 97,5 cm & 96,25 & 2 & 8,2 & 67,24 & 134,48\\
 
 \(z_{(1-\alpha/2)}=\frac{20}{2 \cdot 10{,}12}\approx0{,}99\)
 
-<<<<<<< HEAD
-\hypertarget{aufgabe-5-3}{%
-\subsection{Aufgabe 5}\label{aufgabe-5-3}}
-=======
 \(1-\frac{\alpha}{2}\approx0{,}8389\)
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \(\alpha\approx 0{,}3222\)
 
@@ -4896,23 +4514,8 @@ Ergebnis & $\sigma_{\bar{x}}\approx4{,}35$\\
 \end{tabular}
 \end{table}
 
-<<<<<<< HEAD
-\hypertarget{aufgabe-6-2}{%
-\subsection{Aufgabe 6}\label{aufgabe-6-2}}
-
-\hypertarget{a-7}{%
-\subsubsection{a)}\label{a-7}}
-
-Es gibt eine Hierarchie der Werte (Ordinal-), sinnvolle Abstände (Intervall-) und einen sinnvollen Nullpunkt (Verhältnis-). Deshalb sind die angegebenen Werte als verhältnisskaliert zu verstehen.
-
-\hypertarget{b-7}{%
-\subsubsection{b)}\label{b-7}}
-
-Klassen könnten z.~B. wie in der folgenden Tabelle gewählt werden. Um die Berechnung des arithmetischen Mittels zu vereinfachen berechnen wir gleich den Klassendurchschnitt und Zwischensummen:
-=======
 \hypertarget{c-12}{%
 \subsubsection{c)}\label{c-12}}
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 
 \begin{table}
 \centering
@@ -4937,13 +4540,6 @@ Antwortsatz & Die tatsächliche durchschnittliche Lieferzeit liegt mit 95\% Wahr
 \toprule
 Schritt & Musterlösung\\
 \midrule
-<<<<<<< HEAD
-von 300 bis unter 400 mm & 350 & 4 & -135 & 18225 & 72900\\
-von 400 bis unter 500 mm & 450 & 9 & -35 & 1225 & 11025\\
-von 500 bis unter 600 mm & 550 & 4 & 65 & 4225 & 16900\\
-von 600 bis unter 700 mm & 650 & 2 & 165 & 27225 & 54450\\
-von 700 bis unter 800 mm & 750 & 1 & 265 & 70225 & 70225\\
-=======
 Standardfehler: Formel & $\frac{\mathit{KIB}}{2} = z_{(1-\alpha/2)} \cdot \sigma_{\bar{x}}$\\
 Standardfehler: Umformen & $\sigma_{\bar{x}} = \frac{\mathit{KIB}}{2} \cdot \frac{1}{z_{(1-\alpha/2)}}$\\
 Standardfehler: Einsetzen & $\sigma_{\bar{x}}=\frac{\mathit{KIB}}{2}\cdot \frac{1}{z_{99{,}5\%}} = 8{,}53 \cdot \frac{1}{2{,}58}$\\
@@ -4953,526 +4549,10 @@ $n$: Umformen & $n=\Big(\frac{\sigma}{\sigma_{\bar{x}}}\Big)^2$\\
 $n$: Einsetzen & $n=\Big(\frac{11{,}5}{3{,}31}\Big)^2$\\
 $n$: Ergebnis & $n\approx12{,}07$\\
 Antwortsatz & Es müssten 6 zusätzliche Messungen  vorgenommen werden (13 insgesamt).\\
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 \bottomrule
 \end{tabular}
 \end{table}
 
-<<<<<<< HEAD
-Die Varianz beträgt:
-
-\[\begin{aligned}
-  s^2&=\frac{\sum\limits_{i=1}^{n}(x_{i}-\bar{x})^2}{n-1} \\
-     &=\frac{72900+11025+16900+54450+70225}{20-1}\\
-     &=\frac{225500}{19}\\
-     &\approx{11868{,}42}
-\end{aligned}\]
-
-Somit beträgt die Standardabweichung
-
-\[\begin{aligned}
-  s&=\sqrt{s^2}\\
-   &\approx\sqrt{11868{,}42}\\
-   &\approx108{,}94
-\end{aligned}\]
-
-\hypertarget{g}{%
-\subsubsection{g)}\label{g}}
-
-Auch der Boxplot lässt sich anhand der klassierten Werte zeichnen:
-
-\begin{center}\includegraphics[width=0.35\linewidth]{Skript_Statistik_2021_files/figure-latex/solve_2_6_g-1} \end{center}
-
-\hypertarget{sitzung-3}{%
-\section*{Sitzung 3}\label{sitzung-3}}
-\addcontentsline{toc}{section}{Sitzung 3}
-
-\hypertarget{aufgabe-1-4}{%
-\subsection{Aufgabe 1}\label{aufgabe-1-4}}
-
-\hypertarget{a-8}{%
-\subsubsection{a)}\label{a-8}}
-
-Zunächst brauchen wir das arithmetische Mittel:
-
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Musterlösung\\
-\midrule
-Formel & $\bar{x}=\frac{\sum\limits_{i=1}^{n}x_{i}}{n}$\\
-Einsetzen & $\bar{x}=\frac{-170{,}47}{9}$\\
-Ergebnis & $\bar{x}=-18{,}94$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Und die Standardabweichung:
-
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Musterlösung\\
-\midrule
-Formel & $s=\sqrt{s^2}$\\
-Einsetzen & $s=\sqrt{61{,}08}$\\
-Ergebnis & $s\approx7{,}82$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Dann lässt sich die Formel bestimmen:
-
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Musterlösung\\
-\midrule
-Formel & $z_{i} = \frac{x_{i} - \bar{x}}{s}$\\
-Einsetzen & $z_{i} = \frac{x_{i} +18{,}94}{7{,}82}$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Und schließlich die einzelnen Werte berechnen. Hier sind die Berechnungen zum Prüfen ausformuliert, das wird in der Klausur nicht für jeden Wert erwartet.
-
-\begin{table}
-\centering
-\begin{tabular}{rl}
-\toprule
-$x_i$ & Berechnung\\
-\midrule
--16,93 & $z_{1}=\frac{-16{,}93+18{,}94}{7{,}82}\approx0{,}26$\\
--16,09 & $z_{2}=\frac{-16{,}09+18{,}94}{7{,}82}\approx0{,}36$\\
--10,97 & $z_{3}=\frac{-10{,}97+18{,}94}{7{,}82}\approx1{,}02$\\
--3,77 & $z_{4}=\frac{-3{,}77+18{,}94}{7{,}82}\approx1{,}94$\\
--25,55 & $z_{5}=\frac{-25{,}55+18{,}94}{7{,}82}\approx-0{,}85$\\
--20,57 & $z_{6}=\frac{-20{,}57+18{,}94}{7{,}82}\approx-0{,}21$\\
--23,61 & $z_{7}=\frac{-23{,}61+18{,}94}{7{,}82}\approx-0{,}60$\\
--25,90 & $z_{8}=\frac{-25{,}9+18{,}94}{7{,}82}\approx-0{,}89$\\
--27,08 & $z_{9}=\frac{-27{,}08+18{,}94}{7{,}82}\approx-1{,}04$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\hypertarget{b-8}{%
-\subsubsection{b)}\label{b-8}}
-
-Zunächst die Standardabweichung:
-
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Musterlösung\\
-\midrule
-Formel & $s=\sqrt{s^2}$\\
-Einsetzen & $s=\sqrt{13{,}02}$\\
-Ergebnis & $s\approx3{,}61$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Dann die Formel:
-
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Musterlösung\\
-\midrule
-Formel & $z_{i} = \frac{x_{i} - \bar{x}}{s}$\\
-Umformen & $z_{i} = \frac{x_{i} - \bar{x}}{s}$\\
-Einsetzen & $x_{i} = z_{i} \cdot 3{,}61 + 221{,}54$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Schließlich die einzelnen Werte:
-
-\begin{table}
-\centering
-\begin{tabular}{rl}
-\toprule
-$z_i$ & Berechnung\\
-\midrule
-1,19 & $x_{1} = 1{,}19 \cdot 3{,}61 + 221{,}54\approx225{,}84$\\
--1,87 & $x_{2} = -1{,}87 \cdot 3{,}61 + 221{,}54\approx214{,}79$\\
-1,50 & $x_{3} = 1{,}5 \cdot 3{,}61 + 221{,}54\approx226{,}95$\\
--0,44 & $x_{4} = -0{,}44 \cdot 3{,}61 + 221{,}54\approx219{,}95$\\
-2,96 & $x_{5} = 2{,}96 \cdot 3{,}61 + 221{,}54\approx232{,}23$\\
-0,20 & $x_{6} = 0{,}2 \cdot 3{,}61 + 221{,}54\approx222{,}26$\\
-3,83 & $x_{7} = 3{,}83 \cdot 3{,}61 + 221{,}54\approx235{,}37$\\
-0,54 & $x_{8} = 0{,}54 \cdot 3{,}61 + 221{,}54\approx223{,}49$\\
--2,05 & $x_{9} = -2{,}05 \cdot 3{,}61 + 221{,}54\approx214{,}14$\\
-0,18 & $x_{10} = 0{,}18 \cdot 3{,}61 + 221{,}54\approx222{,}19$\\
--0,23 & $x_{11} = -0{,}23 \cdot 3{,}61 + 221{,}54\approx220{,}71$\\
-0,90 & $x_{12} = 0{,}9 \cdot 3{,}61 + 221{,}54\approx224{,}79$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\hypertarget{aufgabe-2-4}{%
-\subsection{Aufgabe 2}\label{aufgabe-2-4}}
-
-\hypertarget{a-9}{%
-\subsubsection{a)}\label{a-9}}
-
-Zunächst geht es darum, die \(x\)-Werte in \(z\)-Werte zu transformieren.
-
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Lösung\\
-\midrule
-Formel & $z_{i} = \frac{x_{i} - \mu}{\sigma}$\\
-Einsetzen & $z_{i} = \frac{x_{i} - 32{,}2}{4{,}4}$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Durch Einsetzen ergeben sich die folgenden Werte. (So ausführlich muss es in der Klausur nicht sein.)
-
-\begin{table}
-\centering
-\begin{tabular}{rl}
-\toprule
-$x_i$ & Berechnung\\
-\midrule
-39,58 & $z_{1}=\frac{39{,}58-32{,}2}{4{,}4}\approx1{,}68$\\
-17,01 & $z_{2}=\frac{17{,}01-32{,}2}{4{,}4}\approx-3{,}45$\\
-31,38 & $z_{3}=\frac{31{,}38-32{,}2}{4{,}4}\approx-0{,}19$\\
-44,48 & $z_{4}=\frac{44{,}48-32{,}2}{4{,}4}\approx2{,}79$\\
-41,04 & $z_{5}=\frac{41{,}04-32{,}2}{4{,}4}\approx2{,}01$\\
-30,85 & $z_{6}=\frac{30{,}85-32{,}2}{4{,}4}\approx-0{,}31$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Für die positiven \(z\)-Werte können die Unterschreitungs­wahrscheinlichkeiten direkt in der Wertetabelle nachgeschaut werden. Für negative \(z\)-Werte gilt die Formel:
-
-\[ P(z\leq -z_p) = 1-P(z \leq z_p) \]
-
-Die Unterschreitungswerte ergeben:
-
-\begin{table}
-\centering
-\begin{tabular}{rllll}
-\toprule
-$x_i$ & $z_i$ & Formel & Ergebnis & In Prozent\\
-\midrule
-39,58 & 1,68 & $p=P(z \leq 1{,}68)$ & $p \approx 0{,}9535$ & 95,35\%\\
-17,01 & -3,45 & $p=1-P(z \leq 3{,}45)$ & $p \approx 0{,}0003$ & 0,03\%\\
-31,38 & -0,19 & $p=1-P(z \leq 0{,}19)$ & $p \approx 0{,}4247$ & 42,47\%\\
-44,48 & 2,79 & $p=P(z \leq 2{,}79)$ & $p \approx 0{,}9974$ & 99,74\%\\
-41,04 & 2,01 & $p=P(z \leq 2{,}01)$ & $p \approx 0{,}9778$ & 97,78\%\\
-30,85 & -0,31 & $p=1-P(z \leq 0{,}31)$ & $p \approx 0{,}3783$ & 37,83\%\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\hypertarget{b-9}{%
-\subsubsection{b)}\label{b-9}}
-
-Es handelt sich um Überschreitungs­wahrscheinlichkeiten, aber aus der Tabelle lassen sich nur Unterschreitungswerte ablesen. Weil die Normalverteilung symmetrisch ist, gilt aber:
-
-\[ P(x>x_p)=1-P(x\leq x_p)\]
-
-So lässt sich jeweils sagen:
-
-\begin{table}
-\centering
-\begin{tabular}{rrlll}
-\toprule
-Überschr. $p_{i}$ & Unterschr. $(1-p_{1})$ & Berechnung & .... & Ergebnis\\
-\midrule
-0,0005 & 0,9995 & $P(z \leq z_{1}) = 0{,}9995$ &  & $z_{1} \approx 3{,}29$\\
-0,0010 & 0,9990 & $P(z \leq z_{2}) = 0{,}999$ &  & $z_{2} \approx 3{,}09$\\
-0,0500 & 0,9500 & $P(z \leq z_{3}) = 0{,}95$ &  & $z_{3} \approx 1{,}64$\\
-0,1300 & 0,8700 & $P(z \leq z_{4}) = 0{,}87$ &  & $z_{4} \approx 1{,}13$\\
-0,5000 & 0,5000 & $P(z \leq z_{5}) = 0{,}5$ &  & $z_{5} \approx 0{,}00$\\
-0,9000 & 0,1000 & $P(z \leq -z_{6}) = 1-0{,}1 = 0{,}9$ & $-z_{6} \approx 1{,}28$ & $z_{6} \approx -1{,}28$\\
-0,9900 & 0,0100 & $P(z \leq -z_{7}) = 1-0{,}01 = 0{,}99$ & $-z_{7} \approx 2{,}33$ & $z_{7} \approx -2{,}33$\\
-0,9999 & 0,0001 & $P(z \leq -z_{8}) = 1-0{,}0001 = 0{,}9999$ & $-z_{8} \approx 3{,}72$ & $z_{8} \approx -3{,}72$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Für die Rücktransformation gilt die Formel:
-
-\[x_{i} = z_{i} \cdot \sigma + \mu\]
-
-\begin{table}
-\centering
-\begin{tabular}{lll}
-\toprule
-$z_i$ & Einsetzen & $x_i$\\
-\midrule
-3,29 & $x_{1} = 3{,}29 \cdot 4{,}4 + 32{,}2$ & $x_{1}\approx46{,}68$\\
-3,09 & $x_{2} = 3{,}09 \cdot 4{,}4 + 32{,}2$ & $x_{2}\approx45{,}80$\\
-1,64 & $x_{3} = 1{,}64 \cdot 4{,}4 + 32{,}2$ & $x_{3}\approx39{,}42$\\
-1,13 & $x_{4} = 1{,}13 \cdot 4{,}4 + 32{,}2$ & $x_{4}\approx37{,}17$\\
-0 & $x_{5} = 0 \cdot 4{,}4 + 32{,}2$ & $x_{5}\approx32{,}20$\\
--1,28 & $x_{6} = -1{,}28 \cdot 4{,}4 + 32{,}2$ & $x_{6}\approx26{,}57$\\
--2,33 & $x_{7} = -2{,}33 \cdot 4{,}4 + 32{,}2$ & $x_{7}\approx21{,}95$\\
--3,72 & $x_{8} = -3{,}72 \cdot 4{,}4 + 32{,}2$ & $x_{8}\approx15{,}83$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\hypertarget{c-7}{%
-\subsubsection{c)}\label{c-7}}
-
-Die mittleren 95\% der Werte liegen zwischen einem unteren Wert \(x_{2{,}5\%}\) (der zu 2,5\% unterschritten wird) und einem oberen Wert \(x_{97{,}5\%}\) (der zu 2,5\% überschritten wird).
-
-Der obere \(z\)-Wert lässt sich leicht finden: \(z_{97{,}5\%} \approx 1{,}96\)
-
-Durch Symmetrie wissen wir dann auch, dass: \(z_{2{,}5\%} \approx -1{,}96\)
-
-Nun noch rückwärts transformieren:
-
-\begin{table}
-\centering
-\begin{tabular}{ll}
-\toprule
-Schritt & Lösung\\
-\midrule
-Formel & $x_{i} = z_{i} \cdot \sigma + \mu$\\
-Untergrenze: Einsetzen & $x_{u} = -1{,}96 \cdot 4{,}4 + 32{,}2$\\
-Untergrenze: Ergengis & $x_{u}\approx23{,}58$\\
-Obergrenze: Einsetzen & $x_{o} = 1{,}96 \cdot 4{,}4 + 32{,}2$\\
-Obergrenze: Ergebnis & $x_{o}\approx40{,}82$\\
-Antwortsatz & Die mittleren 95 Prozent der Werte liegen zwischen 23,58 und 40,82.\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\hypertarget{d-2}{%
-\subsubsection{d)}\label{d-2}}
-
-Es ist immer einfacher, mit Unterschreitungs­wahrscheinlichkeiten zu arbeiten. Zwischen 30 und 40 heißt auch: unter 40, aber nicht unter 30. Formal sieht das so aus:
-
-\[P(30 < x \leq 40) = P(x \leq 40) - P(x \leq 30)\]
-
-Diese Unterschreitungs­wahrscheinlichkeiten bestimmen wir wieder über die \(z\)-Transformation:
-
-\begin{table}
-\centering
-\begin{tabular}{ll}
-\toprule
-Schritt & Lösung\\
-\midrule
-Formel & $z_{i} = \frac{x_{i} - \mu}{\sigma}$\\
-Untergrenze: $z$-Wert & $z_{u}=\frac{30-32{,}2}{4{,}4}\approx-0{,}50$\\
-Untergrenze: Unterschr. & $p \approx 0{,}3085$\\
-Obergrenze: $z$-Wert & $z_{o}=\frac{40-32{,}2}{4{,}4}\approx1{,}77$\\
-Obergrenze: Unterschr. & $p \approx 0{,}9616$\\
-Intervall & $P(30 < x \leq 40) = P(x \leq 40) - P(x \leq 30)$\\
-Intervall einsetzen & $P(30 < x \leq 40) \approx P(z \leq 0{,}9616) - P(z \leq 0{,}3085)$\\
-Intervall Ergebnis & $P(30 < x \leq 40) \approx 0{,}6531$\\
-Antwortsatz & Ein zufälliger Wert der Verteilung liegt mit 65,31-prozentiger Wahrscheinlichkeit zwischen 30 und 40.\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\hypertarget{aufgabe-3-5}{%
-\subsection{Aufgabe 3}\label{aufgabe-3-5}}
-
-\hypertarget{a-10}{%
-\subsubsection{a)}\label{a-10}}
-
-Siehe b)
-
-\hypertarget{b-10}{%
-\subsubsection{b)}\label{b-10}}
-
-Die Dichtefunktion mit kritischem Wert sollte in etwa so aussehen:
-
-\begin{center}\includegraphics[width=.6\linewidth]{Skript_Statistik_2021_files/figure-latex/unnamed-chunk-62-1} \end{center}
-
-\hypertarget{c-8}{%
-\subsubsection{c)}\label{c-8}}
-
-\[z_p=\frac{x_p- \mu}{\sigma} = \frac{10-9,01}{2,23}\approx0,44\]
-
-\hypertarget{d-3}{%
-\subsubsection{d)}\label{d-3}}
-
-\[p=P(z<z_p)\approx P(z<0,44)\approx0,6700\]
-
-Die Wahrscheinlichkeit, dass der Deich unbeschädigt bleibt, beträgt 67\%.
-
-\hypertarget{aufgabe-4-5}{%
-\subsection{Aufgabe 4}\label{aufgabe-4-5}}
-
-\hypertarget{a-11}{%
-\subsubsection{a)}\label{a-11}}
-
-Die Übertretungswahrscheinlichkeit beträgt:
-
-\[P(z>z_p) = 1- P(z<z_p) \approx 1-0,6700 = 0,3300 = 33\% \]
-
-\hypertarget{b-11}{%
-\subsubsection{b)}\label{b-11}}
-
-Für \(x_p=12\) ergibt sich:
-
-\[ z_p=\frac{x_p- \mu}{\sigma} = \frac{12-9,01}{2,23}\approx1,34 \]
-
-Und für die Übertretungswahrscheinlichkeit:
-
-\[P(z>z_p) = 1- P(z<z_p) \approx 1-0,9099 = 0,0901= 9,01\% \]
-
-\hypertarget{c-9}{%
-\subsubsection{c)}\label{c-9}}
-
-Wir kennen \(P(x < 12)\approx0,9099\) aus Aufgabe 2 b) und \(P(x<10)\approx0,6700\) aus Aufgabe 1 d). Also rechnen wir:
-
-\[P(10<x<12) = P(x<12) - P(x<10) \approx 0,9099 - 0,6700 = 0,2399\]
-
-\hypertarget{d-4}{%
-\subsubsection{d)}\label{d-4}}
-
-Für die Obergrenze soll gelten: \(P(x<x_o) = 0,9\). Der Tabelle entnehmen wir \(z_o \approx 1,28\). Entsprechend ist \(z_u\approx-1,28\).
-
-Die Umkehrung der \(z\)-Transformation ergibt:
-
-\[\begin{aligned}
-x_o&=z_o\cdot\sigma + \mu\approx1,28\cdot2,23 +9,01\approx11,86\\
-x_u&=z_u\cdot\sigma + \mu\approx-1,28\cdot2.23 +9.01\approx6,16
-\end{aligned}\]
-
-Die mittleren 80\% der Werte liegen also zwichen 6,16 und 11,86~m.
-
-\hypertarget{aufgabe-5-4}{%
-\subsection{Aufgabe 5}\label{aufgabe-5-4}}
-
-\hypertarget{a-12}{%
-\subsubsection{a)}\label{a-12}}
-
-\[p=P(x<x_p)=1-P(x>x_p)=1-\frac{1}{200}=1-0,005=0,995\]
-
-\hypertarget{b-12}{%
-\subsubsection{b)}\label{b-12}}
-
-\[z_{99,5\%}\approx2,58\]
-
-\hypertarget{c-10}{%
-\subsubsection{c)}\label{c-10}}
-
-\[x_{99,5\%}=z_{99,5\%}\cdot\sigma + \mu\approx2,58\cdot2,23+9,01\approx14,76\]
-
-Der neue Deich muss 14,76~m hoch sein.
-
-\hypertarget{aufgabe-6-3}{%
-\subsection{Aufgabe 6}\label{aufgabe-6-3}}
-
-\hypertarget{a-13}{%
-\subsubsection{a)}\label{a-13}}
-
-\begin{itemize}
-\tightlist
-\item
-  \(z_p=1\) und \(P(z<1)\approx84,13\%\), also \(P(z>1)\approx15,87\%\)
-\end{itemize}
-
-\hypertarget{b-13}{%
-\subsubsection{b)}\label{b-13}}
-
-\begin{itemize}
-\tightlist
-\item
-  \(z_p=-2\) und \(P(z<-2) = 1-P(z<2) \approx 1-0,9772 = 0,0228\)
-\item
-  Es kann also 2,28 Mal in 100 Jahren (oder: in etwa 2 von 100 Jahren, in weniger als 3 von 100 Jahren) mit weniger als 200~mm Regen gerechnet werden.
-\end{itemize}
-
-\hypertarget{c-11}{%
-\subsubsection{c)}\label{c-11}}
-
-\begin{itemize}
-\tightlist
-\item
-  \(z_u=-2\) und \(P(z<z_u)\approx 0,0228\) (siehe b)
-\item
-  \(z_o=\frac{x_o- \mu}{\sigma}=\frac{550-400}{100}=1,5\) und \(P(z<z_o) \approx 0,9332\)
-\item
-  \(P(200 < x < 550) = P(x < 550) - P(x<200) \approx 91,04\%\)
-\end{itemize}
-
-\hypertarget{d-5}{%
-\subsubsection{d)}\label{d-5}}
-
-\begin{itemize}
-\tightlist
-\item
-  Gesucht ist \(x_p\), für das gilt: \(P(x>x_p) = \frac{2}{100}=0,02\)
-\item
-  Daraus folgt: \(P(x<x_p) = 0,98\) und \(z_p\approx2,05\)
-\item
-  \(x_p = 605\)
-\end{itemize}
-
-\hypertarget{e-1}{%
-\subsubsection{e)}\label{e-1}}
-
-\begin{itemize}
-\tightlist
-\item
-  \(z_{12,5\%}\approx -1,15\) und \(z_{87,5\%}= 1,15\)
-\item
-  Die mittleren 75\% liegen zwischen \(x_u=285\) und \(x_o=515\) mm.
-\end{itemize}
-
-\hypertarget{aufgabe-7-1}{%
-\subsection{Aufgabe 7}\label{aufgabe-7-1}}
-
-\textbf{Für die Ziegelei:}
-
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Musterlösung\\
-\midrule
-Varianz: Formel & $s^2=\frac{\sum\limits_{i=1}^{n}(x_{i}-\bar{x})^2}{n-1}$\\
-Varianz: Einsetzen & $s^2_x=\frac{610{,}83}{5}$\\
-Varianz: Ergebnis & $s^2_x=122{,}17$\\
-Standardabweichung: Formel & $s=\sqrt{s^2}$\\
-Standardabweichung: Ergebnis & $s_x\approx11{,}05$\\
-Variationskoeffizient: Formel & $v=\frac{s}{|\bar{x}|}\cdot100\%\quad$\\
-Variationskoeffizient: Einsetzen & $v\approx\frac{11,54}{74,67}\cdot100\%\quad$\\
-Variationskoeffizient: Ergebnis & $v \approx 12{,}97\%$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\textbf{Für das Möbellager:}
-
-\begin{table}
-\centering
-\begin{tabular}{lc}
-\toprule
-Schritt & Musterlösung\\
-\midrule
-Varianz: Formel & $s^2=\frac{\sum\limits_{i=1}^{n}(x_{i}-\bar{x})^2}{n-1}$\\
-Varianz: Einsetzen & $s^2_y=\frac{4015{,}33}{5}$\\
-Varianz: Ergebnis & $s^2_y=803{,}07$\\
-Standardabweichung: Formel & $s_y=\sqrt{s^2_y}$\\
-Standardabweichung: Ergebnis & $s_y\approx28{,}34$\\
-Variationskoeffizient: Formel & $v=\frac{s}{|\bar{x}|}\cdot100\%\quad$\\
-Variationskoeffizient: Einsetzen & $v\approx\frac{11,54}{74,67}\cdot100\%\quad$\\
-Variationskoeffizient: Ergebnis & $v \approx 38{,}13\%$\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-=======
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 \hypertarget{quellenverzeichnis}{%
 \chapter*{Quellenverzeichnis}\label{quellenverzeichnis}}
 \addcontentsline{toc}{chapter}{Quellenverzeichnis}
@@ -5488,26 +4568,19 @@ Benninghaus, Hans. 2007. \emph{Deskriptive Statistik. Eine Einführung für Sozi
 \leavevmode\hypertarget{ref-bortz}{}%
 Bortz, Jürgen und Christof Schuster. 2010. \emph{Statistik für Human- und Sozialwissenschaftler}. Berlin: Springer.
 
-<<<<<<< HEAD
+\leavevmode\hypertarget{ref-burt}{}%
+Burt, James E. und Gerald M. Barber. 1996. \emph{Elementary statistics for geographers}. 2nd ed. New York: Guilford Press.
+
 \leavevmode\hypertarget{ref-haseloff}{}%
 Haseloff, Otto W., Hans-Joachim Hoffmann, John H. Maindonald und W. John Braun. 1968. \emph{Kleines Lehrbuch der Statistik DAAG. Data Analysis and Graphics Data and Functions}. Berlin: de Gruyter.
 
-\leavevmode\hypertarget{ref-daag}{}%
-=======
-\leavevmode\vadjust pre{\hypertarget{ref-burt}{}}%
-Burt, James E. und Gerald M. Barber. 1996. \emph{Elementary statistics for geographers}. 2nd ed. New York: Guilford Press.
-
-\leavevmode\vadjust pre{\hypertarget{ref-haseloff}{}}%
-Haseloff, Otto W., Hans-Joachim Hoffmann, John H. Maindonald und W. John Braun. 1968. \emph{Kleines Lehrbuch der Statistik DAAG. Data Analysis and Graphics Data and Functions}. Berlin: de Gruyter.
-
-\leavevmode\vadjust pre{\hypertarget{ref-klemm}{}}%
+\leavevmode\hypertarget{ref-klemm}{}%
 Klemm, Elmar. 2002. \emph{Einführung in die Statistik. Für die Sozialwissenschaften}. Wiesbaden: Westdeutscher Verlag.
 
-\leavevmode\vadjust pre{\hypertarget{ref-delange}{}}%
+\leavevmode\hypertarget{ref-delange}{}%
 Lange, Norbert de und Josef Nipper. 2018. \emph{Quantitative Methodik in der Geographie}. {UTB} Geographie, Methoden, Statistische Verfahren 4933. Paderborn: Ferdinand Schöningh.
 
-\leavevmode\vadjust pre{\hypertarget{ref-daag}{}}%
->>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
+\leavevmode\hypertarget{ref-daag}{}%
 Maindonald, John H. und W. John Braun. 2015. DAAG: Data Analysis and Graphics Data and Functions. \url{https://CRAN.R-project.org/package=DAAG}.
 
 \leavevmode\hypertarget{ref-r}{}%
