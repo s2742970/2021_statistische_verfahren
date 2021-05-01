@@ -35,6 +35,24 @@ eq:neg
 fig:intervall
 eq:intervall
 fig:mitte
+<<<<<<< HEAD
+=======
+fig:pop
+fig:stich
+eq:mean
+eq:4var
+eq:4sd
+eq:4norm
+fig:beta
+eq:muhat
+eq:varhat
+eq:sigmahat
+fig:double
+fig:konf
+tab:tab
+eq:konf
+eq:kib
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 datenerhebung-und-häufigkeiten
 statistische-praxis
 grundbegriffe-der-statistik
@@ -84,11 +102,19 @@ grundbegriffe
 stichproben
 skalenniveaus-1
 häufigkeiten-und-diagramme
+<<<<<<< HEAD
 aufgabe-1
 aufgabe-2
 aufgabe-3
 aufgabe-4
 aufgabe-5
+=======
+aufgabe-1-1
+aufgabe-1-2
+aufgabe-1-3
+aufgabe-1-4
+aufgabe-1-5
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 maßzahlen
 einleitende-bemerkungen
 beispielverteilung
@@ -105,6 +131,7 @@ boxplot
 lagemaße-1
 streumaße-1
 boxplot-1
+<<<<<<< HEAD
 aufgabe-1-1
 a
 b
@@ -114,6 +141,17 @@ aufgabe-3-1
 aufgabe-4-1
 ex2-5
 aufgabe-6
+=======
+aufgabe-2-1
+a
+b
+c
+aufgabe-2-2
+aufgabe-2-3
+aufgabe-2-4
+aufgabe-2-5
+aufgabe-2-6
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 z-werte-und-normalverteilung
 variationskoeffizient
 z-transformation
@@ -132,6 +170,7 @@ variationskoeffizient-1
 z-transformation-1
 normalverteilung-1
 wahrscheinlichkeitsdichtefunktion
+<<<<<<< HEAD
 aufgabe-1-2
 aufgabe-2-2
 aufgabe-3-2
@@ -159,14 +198,71 @@ a-4
 b-4
 c-4
 aufgabe-4-4
+=======
+aufgabe-3-1
+aufgabe-3-2
+aufgabe-3-3
+aufgabe-3-4
+aufgabe-3-5
+aufgabe-3-6
+aufgabe-3-7
+schätzstatistik
+stichprobenverteilung
+szenario-1-normalverteilte-grundgesamtheit
+erwartungswert
+standardfehler
+szenario-2-nicht-normalverteilte-grundgesamtheit
+punktschätzung
+punktschätzung-des-arithmetischen-mittels
+punktschätzung-der-varianz-und-der-standardabweichung
+schätzung-des-standardfehlers
+intervallschätzung
+gesuchtes-alpha
+die-umständliche-variante
+die-schnelle-variante
+gesuchtes-konfidenzintervall
+gesuchtes-n
+aufgabe-4-1
+aufgabe-4-2
+aufgabe-4-3
+aufgabe-4-4
+loesung-1-1
+loesung-1-2
+loesung-1-3
+loesung-1-4
+a-1
+b-1
+c-1
+loesung-1-5
+loesung-2-1
+a-2
+b-2
+c-2
+loesung-2-2
+a-3
+b-3
+c-3
+loesung-2-3
+a-4
+b-4
+c-4
+loesung-2-4
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 a-5
 b-5
 c-5
 d
+<<<<<<< HEAD
 aufgabe-5-3
 a-6
 b-6
 aufgabe-6-2
+=======
+loesung-2-5
+a-6
+b-6
+loesung-2-6
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 a-7
 b-7
 c-6
@@ -174,32 +270,75 @@ d-1
 e
 f
 g
+<<<<<<< HEAD
 aufgabe-1-4
 a-8
 b-8
 aufgabe-2-4
+=======
+loesung-3-1
+a-8
+b-8
+loesung-3-2
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 a-9
 b-9
 c-7
 d-2
+<<<<<<< HEAD
 aufgabe-3-5
+=======
+loesung-3-3
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 a-10
 b-10
 c-8
 d-3
+<<<<<<< HEAD
 aufgabe-4-5
+=======
+loesung-3-4
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 a-11
 b-11
 c-9
 d-4
+<<<<<<< HEAD
 aufgabe-5-4
 a-12
 b-12
 c-10
 aufgabe-6-3
+=======
+loesung-3-5
+a-12
+b-12
+c-10
+loesung-3-6
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
 a-13
 b-13
 c-11
 d-5
 e-1
+<<<<<<< HEAD
 aufgabe-7-1
+=======
+loesung-3-7
+loesung-4-1
+a-14
+b-14
+loesung-5-1
+a-15
+b-15
+b-16
+d-6
+loesung-6-1
+a-16
+b-17
+loesung-7-1
+a-17
+b-18
+c-12
+d-7
+>>>>>>> 8da19f33363bf4df5b2a626b2eede4833e8a91cc
