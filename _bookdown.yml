@@ -1,6 +1,5 @@
 book_filename:      "Skript_Statistik_2021"
-output_dir:         docs
-delete_merged_file: true
+output_dir:         public
 language:
   ui:
     chapter_name: "Sitzung "
