@@ -1,0 +1,98 @@
+## Übungsaufgaben {-}
+
+`r naechste("aufgabe", T)`
+
+Sie fragen sich, wie die Wohnumgebung einer Person (Stadt oder Land) damit zusammenhängt, ob die Person ein eigenes Auto besitzt. Sie erheben die folgende Messreihe:
+
+```{r}
+construct("Autobesitz" = c("Ja", "Nein"),
+          "Wohnort" = c("Land",
+                        "Stadt"),
+          counts = c(9, 2,
+                     2, 7)) -> ex_9_1
+
+tabelle(ex_9_1$table, full_width = F)
+```
+
+a) Überführen Sie die Daten in eine Kreuztabelle.
+
+b) Berechnen Sie die Erwartungswerte für jedes Tabellenfeld.
+
+c) Berechnen Sie $\chi^2$.
+
+d) Berechnen Sie den $\phi$-Koeffizienten.
+
+e) Besteht eine Korrelation? In welche Richtung?
+
+`r naechste("aufgabe") # 2`
+
+Sie interessieren sich dafür, ob zwei "Ja/Nein"-Fragen auf einem Fragebogen korrelieren.
+
+Sie ermitteln folgende Häufigkeiten:
+
+```{r}
+construct("Frage 2" = c("Ja", "Nein"),
+          "Frage 1" = c("Ja", "Nein"),
+          counts = c(5, 28, 40, 72)) %>%
+  get_crosstable() ->
+  ex_9_2
+
+print_crosstable(ex_9_2, question = T)
+```
+
+a) Vervollständigen Sie die Kreuztabelle um ihre Summen und die Erwartungswerte.
+
+b) Berechnen Sie $\chi^2$ und den $\phi$-Koeffizienten.
+
+e) Wie würden Sie den Zusammenhang beschreiben?
+
+`r naechste("aufgabe") # 3`
+
+Sie möchten überprüfen, ob auf dem Arbeitsmarkt anhand von Namen diskriminiert wird, die auf einen Migrationshintergrund schließen lassen. Sie antworten als fiktive Bewerber\*innen mit vergleichbaren Qualifikationen auf zufällige Stellenanzeigen und halten fest, ob die jeweilige Bewerbung in einer Einladung zum Vorstellungsgespräch resultiert.
+
+Sie erheben diese Daten:^[Diese Zahlen sind fiktiv. Echte Ergebnisse sogenannter Korrenspondenztests zu ähnlichen Fragestellungen sind bei @ringeisen zusammengefasst.]
+
+```{r}
+construct("Ergebnis" = c("eingeladen", "nicht eingeladen"),
+          "Herkunft des Namens" = c("deutsch",
+                                    "italienisch",
+                                    "slawisch",
+                                    "türkisch"),
+          counts = c(36, 64,
+                     23, 77,
+                     9, 91,
+                     11, 89)) %>%
+  get_crosstable() ->
+  ex_9_3
+
+print_crosstable(ex_9_3, question = T)
+```
+
+Können Sie einen Zusammenhang zwischen Namensherkunft und Erfolg der Bewerbung feststellen? Begründen Sie Ihre Antwort.
+
+`r naechste("aufgabe") # 4`
+
+In einer breit angelegten Befragung von Haushalten wird erhoben,
+
+1) ob die Proband\*innen zur Miete wohnen und
+2) welchen Internetanschluss sie nutzen.
+
+Sie fassen die Ergebnisse in einer Kreuztabelle zusammen:
+
+```{r}
+construct("Wohnverhältnis" = c("Miete", "Eigentum"),
+          "Internetanschluss" = c("Glasfaser",
+                                  "DSL",
+                                  "Koaxialkabel",
+                                  "Kein fester Anschluss"),
+          counts = c(1926, 1567,
+                     2758, 3686,
+                     3002, 1903,
+                     1277, 167)) %>%
+  get_crosstable() ->
+  ex_9_4
+
+  print_crosstable(ex_9_4, question = T)
+```
+
+Berechnen Sie den Cramér-Index und interpretieren Sie das Ergebnis.
